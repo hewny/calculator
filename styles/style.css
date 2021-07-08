@@ -51,7 +51,19 @@ body {
     font-size: 20px;
 
 }
-.button-last {
+.button-first {
+    display: block;
+    grid-column: 1/3;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    border: 0px transparent;
+    font-size: 20px;
+    background-color: rgb(255, 128, 128);
+    opacity: 0.8;
+}
+
+.button-second {
     display: block;
     grid-column: 3/5;
     width: 100%;
@@ -59,8 +71,22 @@ body {
     border-radius: 1rem;
     border: 0px transparent;
     font-size: 20px;
+    background-color: lightskyblue;
+    opacity: 0.8;
 }
 
-button:hover {
-    background-color: rgb(165, 165, 165);
+.clicked {
+    background-color: darkorange;
+}
+
+.button:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+.button-first:hover {
+    opacity: 1;
+}
+
+.button-second:hover {
+    opacity: 1;
 }

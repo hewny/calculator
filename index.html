@@ -2,34 +2,34 @@
 
 <head>
     <link href="styles/style.css" rel="stylesheet">
-    <script src="/scripts/scripts.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="display">
-            <div class="display-inner">1234567890</div>
+            <div class="display-inner"></div>
         </div>
         <div class="buttons">
-            <button class="button" value="">AC</button>
-            <button class="button" value="">C</button>
-            <button class="button" value="">%</button>
-            <button class="button" value="">÷</button>
-            <button class="button" value="">7</button>
-            <button class="button" value="">8</button>
-            <button class="button" value="">9</button>
-            <button class="button" value="">+</button>
-            <button class="button" value="">4</button>
-            <button class="button" value="">5</button>
-            <button class="button" value="">6</button>
-            <button class="button" value="">-</button>
-            <button class="button" value="">1</button>
-            <button class="button" value="">2</button>
-            <button class="button" value="">3</button>
-            <button class="button" value="">x</button>
-            <button class="button" value="">0</button>
-            <button class="button" value="">.</button>
-            <button class="button-last" value="">=</button>
+            <button class="button-first function" value="C">Clear</button>
+            <button class="button-second function" value="Del">Delete</button>
+            <button class="button number" value="7">7</button>
+            <button class="button number" value="8">8</button>
+            <button class="button number" value="9">9</button>
+            <button class="button operator" value="/" id="divide">/</button>
+            <button class="button number" value="4">4</button>
+            <button class="button number" value="5">5</button>
+            <button class="button number" value="6">6</button>
+            <button class="button operator" value="+" id="add">+</button>
+            <button class="button number" value="1">1</button>
+            <button class="button number" value="2">2</button>
+            <button class="button number" value="3">3</button>
+            <button class="button operator" value="-" id="subtract">-</button>
+            <button class="button number" value=".">.</button>
+            <button class="button number" value="0">0</button>
+            <button class="button function" value="=">=</button>
+            <button class="button operator" value="x" id="multiply">x</button>
         </div>
     </div>
 </body>
+
+<script src="/scripts/scripts.js"></script>
